@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6em; /*Chromeの一部バージョンで発生したバグ対策でremではなくここではem*/
+}
 .wrapper{
     width: 960px;
     margin: 0 auto;
@@ -29,7 +36,7 @@
         margin: 0 auto;
         li{
             width: 50%;
-            font-size: 20px;
+            font-size: 2.5rem;
             color: #fff;
             font-weight: bold;
         }
@@ -130,6 +137,7 @@
     text-align: center;
     img{
         width: 100%;
+        vertical-align: bottom;
     }
 }
 .side_left_cont_box{
@@ -140,27 +148,26 @@
     margin-top: 30px;
 }
 .side_left_cont_itm{
-    width: 80%;
+    width: 85%;
     text-align: center;
     margin: 0 auto;
     border: solid 1px #000;
     background-color: #fff;
 }
 .side_left_p1{
-    font-size: 8px;
+    font-size: 1.0rem;
     font-weight: bold;
     text-align: left;
     padding-left: 5px;
+    border-top: solid 1px #000;
 }
 .side_left_p2{
-    font-size: 1px;
+    font-size: 0.3rem;
     font-weight: bold;
     text-align: right;
     padding-right: 5px;
 }
-.side_left_cont_img{
-    border-bottom: solid 1px #000;
-}
+
 // 右側ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 .side_right{
     width: 85%;
@@ -230,13 +237,13 @@
         border-left: solid 3px #fff;
         li{
             padding-top: 20px;
-            font-size: 16px;
+            font-size: 1.8rem;
             font-weight: bold;
         }
     }
  }
 .side_right_cont2_itm p{
-        font-size: 25px;
+        font-size: 2.7rem;
         letter-spacing: 0.1em;
         font-weight: bold;
         text-align: center;
@@ -251,7 +258,7 @@
     width: 85%;
     margin: 0 auto;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 .side_right_cont3_img{
     width: 50%;
@@ -274,8 +281,9 @@
     width: 100%;
     position: relative;
     background-color: #b0824d;
-    padding: 10px 0 10px 0;
+    padding: 13px 0 13px 0;
     p{
+        font-size: 1.9rem;
         color: #fff;
         font-weight: bold;
         padding-left: 10px;
@@ -291,25 +299,28 @@
     height:0;
     border-style: solid;
     border-color: transparent #fff transparent transparent;
-    border-width: 23px 15px 23px 15px;
+    border-width: 25px 15px 25px 15px;
 }
 .side_right_cont3_itm_text{
     width: 95%;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 20px;
+    p{
+        font-size: 2.0rem;
+    }
 }
 .side_right_cont3_itm_button{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 40px;
     button{
         width: 150px;
         padding-top: 10px;
         padding-bottom: 10px;
 
         background-color: #A29453;
-        font-size: 15px;
+        font-size: 1.7rem;
         color: #fff;
         font-weight: bold;
         letter-spacing: 0.1em;
@@ -343,7 +354,7 @@
     }
 }
 .side_right_cont4_p{
-    font-size: 14px;
+    font-size: 1.6rem;
     font-weight: bold;
     text-align: left;
     padding-left: 18px;
@@ -358,7 +369,7 @@
 }
 .cont4_itm_button_up{
     position: absolute;
-    top: 35.4%;
+    top: 36.3%;
     left: 10%;
     width: 80%;
     text-align: center;
@@ -371,7 +382,7 @@
         text-align: center;
         margin: 0 auto;
         background-color: #EB68A0;
-        font-size: 15px;
+        font-size: 1.7rem;
         color: #fff;
         font-weight: bold;
         letter-spacing: 0.1em;
@@ -395,7 +406,7 @@
         border: none;
         font-weight: bold;
         letter-spacing: 0.1em;
-        font-size: 15px;
+        font-size: 1.7rem;
     }
 }
 // 東京の空も悪くないーーーcont5"ーーーーーーーーーーーーーー
@@ -426,9 +437,10 @@
 .side_right_cont5_itm_ribbon{
     position: relative;
     background-color: #b0824d;
-    padding: 10px 0 10px 0;
+    padding: 13px 0 13px 0;
     p{
         color: #fff;
+        font-size: 2.0rem;
         font-weight: bold;
         padding-left: 10px;
         letter-spacing: 0.1em;
@@ -443,15 +455,15 @@
     height:0;
     border-style: solid;
     border-color: transparent #fff transparent transparent;
-    border-width: 23px 15px 23px 15px;
+    border-width: 25px 15px 25px 15px;
 }
 .side_right_cont5_itm_text{
     width: 95%;
     margin: 0 auto;
     margin-top: 20px;
-    height: 140px;
+    margin-bottom: 20px;
     p{
-        font-size: 14px;
+        font-size: 1.9rem;
     }
 }
 .side_right_cont5_itm_button{
@@ -461,7 +473,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: #A29453;
-        font-size: 15px;
+        font-size: 1.7rem;
         color: #fff;
         font-weight: bold;
         letter-spacing: 0.1em;
@@ -474,7 +486,7 @@
     display: inline-block;
     width: 1em;
     height: 1em;
-    background: url(./img/modal.png) no-repeat;
+    background: url(/img/modal.png) no-repeat;
     background-size: contain;
     margin-left: 1em;
 }
@@ -503,7 +515,7 @@
     }
 }
 .side_right_cont6_p{
-    font-size: 15px;
+    font-size: 1.7rem;
     color: #fff;
     font-weight: bold;
     text-align: left;
@@ -532,7 +544,7 @@
         text-align: center;
         margin: 0 auto;
         background-color: #EB68A0;
-        font-size: 15px;
+        font-size: 1.7rem;
         color: #fff;
         font-weight: bold;
         letter-spacing: 0.1em;
@@ -556,7 +568,7 @@
         border: none;
         font-weight: bold;
         letter-spacing: 0.1em;
-        font-size: 15px;
+        font-size: 1.7rem;
     }
 }
 // 日本に生まれてよかったでしょーーーcont７"ーーーーーーーーーーーーーー
@@ -586,10 +598,11 @@
 .side_right_cont7_itm_ribbon{
     position: relative;
     background-color: #b0824d;
-    padding: 10px 0 10px 0;
+    padding: 13px 0 13px 0;
     p{
         color: #fff;
         font-weight: bold;
+        font-size: 2.0rem;
         padding-left: 10px;
         letter-spacing: 0.1em;
     }
@@ -603,15 +616,16 @@
     height:0;
     border-style: solid;
     border-color: transparent #fff transparent transparent;
-    border-width: 23px 15px 23px 15px;
+    border-width: 25px 15px 25px 15px;
 }
 .side_right_cont7_itm_text{
     width: 95%;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     height: 10x;
     p{
-        font-size: 15px;
+        font-size: 1.9rem;
     }
 }
 .side_right_cont7_itm_button{
@@ -622,11 +636,11 @@
     }
     button{
         width: 100%;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
 
         background-color: #A29453;
-        font-size: 15px;
+        font-size: 1.9rem;
         color: #fff;
         font-weight: bold;
         letter-spacing: 0.1em;
@@ -639,13 +653,12 @@
     display: inline-block;
     width: 1em;
     height: 1em;
-    background: url(./img/link.png) no-repeat;
+    background: url(/img/link.png) no-repeat;
     background-size: contain;
     margin-left: auto;
     position: absolute;
     top: 36%;
     right: 10px;
-    margin-top: -4px;
 }
 // フッターーーーーーーーーーーー
 footer{
@@ -663,7 +676,7 @@ footer{
 .footer_p{
     margin-top: 200px;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 2.0rem;
     letter-spacing: 0.1em;
     font-weight: bold;
     color: #fff;
@@ -713,6 +726,10 @@ footer{
 
 // ■■■■■■■■■■■■■■■■■■■ここからレスポンシブ対応記述■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
+html {
+    font-size: 48.5%;
+}
+
 @media only screen and (max-width: 600px){
     .wrapper{
         width: 100%;
@@ -740,8 +757,8 @@ footer{
         margin: 0 auto;
         li{
             width: 100%;
-            font-size: 23px;
             color: #fff;
+            font-size: 2.8rem;
             font-weight: bold;
             margin: 0 auto;
             padding-top: 80px;
@@ -826,64 +843,35 @@ footer{
     }
     
     .youtube_box{
-        clear: left;
         width: 80%;
-        margin: 0 auto;
         .youtube_itm{
-            text-align: center;
-            margin: 0 auto;
             iframe{
                 height: 280px;
                 width: 100%;
-                margin: 0 auto;
-                text-align: center;
                 padding-top: 30px;
                 padding-bottom: 80px;
             }
-        
         }
     }
 
     // 新着情報ーーーーーーーーーcont2"ーーーーーーーーーーーーーー
-    .side_right_cont2{
-        width: 100%;
-        height: 350px;
-        background-color:#7B7B7B;
-        color: #fff;
-    }
     .side_right_cont2_box{
-        text-align: center;
         margin: 0 auto;
         display: table;
-        table-layout:fixed;
-        border-collapse: collapse;
-        width: 70%;
-        height: 350px;
     }
     .side_right_cont2_itm{
-        display: table-cell;
-        width: 70%;
         display:block;
         margin: 0 auto;
         margin-top: 20px;
         p{
             margin: 0 auto;
-            font-size: 18px;
         }
         .cont2_itm_list{
             width: 90%;
             margin: 0 auto;
             padding-left: 0px;
-            padding-top: 20px;
-            padding-bottom: 20px;
             border-left: none;
             border-top: solid 3px #fff;;
-            li{
-                text-align: left;
-                padding-top: 20px;
-                font-size: 16px;
-                font-weight: bold;
-            }
         }
     }
 
@@ -891,20 +879,16 @@ footer{
     // 赤平いいとこいちどはおいでーーーcont3"ーーーーーーーーーーーーーー
     .side_right_cont3{
         width: 90%;
-        margin: 0 auto;
         margin-top: 60px;
-        margin-bottom: 80px;
     }
     .side_right_cont3_img{
         width: 100%;
         img{
             width: 100%;
             height: 300px;
-            object-position: right bottom;
         }
     }
     .side_right_cont3_box{
-        width: 100%;
         display: block;
 
     }
@@ -912,9 +896,6 @@ footer{
         padding-left: 0px;
         margin-top: 30px;
         width: 100%;
-    }
-    .side_right_cont3_itm_text {
-        height: 80px;
     }
     .side_right_cont3_itm_button{
         justify-content: space-around;  
@@ -934,11 +915,12 @@ footer{
             margin: 0 auto;
             .cont3_itm_button{
                 margin-top: 20px;
-                margin-left: 55px;
+                margin-left: 20px;
             }
         }
         .side_right_cont3_itm_button{
             display: block;
+            margin-top: 20px;
         }
 
     }
@@ -949,8 +931,6 @@ footer{
     .side_right_cont4_wrapper{
         width: 100%;
         display: block;
-        margin: 0 auto;
-        padding-top: 80px;
     }
     .side_right_cont4_box{
         width: 80%;
@@ -958,23 +938,10 @@ footer{
     }
     .side_right_cont4_itm{
         width: 80%;
-        margin: 0 auto;
         margin-bottom: 10px;
         img{
-            vertical-align: bottom;
-            object-fit: cover;
-            width: 100%;
             height: 300px;
         }
-    }
-    .side_right_cont4_p{
-        font-size: 14px;
-        font-weight: bold;
-        text-align: left;
-        padding-left: 18px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        background-color: #fff;
     }
     // ピンクボタンーーーーーーーーーーーーーーーーーーーーーーー
     .cont4_itm_button{
@@ -983,7 +950,6 @@ footer{
     // 東京の空も悪くないーーーcont5"ーーーーーーーーーーーーーー
     .side_right_cont5{
         width: 90%;
-        margin: 0 auto;
         margin-top: 60px;
         margin-bottom: 80px;
     }
@@ -1005,33 +971,16 @@ footer{
         width: 100%;
     }
 
-    .side_right_cont5_itm_text{
-        width: 95%;
-        margin: 0 auto;
-        margin-top: 20px;
-        height: 140px;
-
-        p{
-            font-size: 14px;
-        }
-    }
     .side_right_cont5_itm_button{
-        width: 100%;
         text-align: center;
-        margin: 0 auto;
         button{
             width: 70%;
         }
     }
     // cont6----------------------------------------------------------
-    .side_right_cont6{
-        background-color: #7B7B7B;
-    }
     .side_right_cont6_wrapper{
         width: 100%;
         display: block;
-        margin: 0 auto;
-        padding-top: 80px;
     }
     .side_right_cont6_box{
         width: 80%;
@@ -1039,77 +988,34 @@ footer{
     }
     .side_right_cont6_itm{
         width: 80%;
-        margin: 0 auto;
         img{
-            vertical-align: bottom;
-            object-fit: cover;
-            width: 100%;
             height: 300px;
         }
     }
-    .side_right_cont6_p{
-        font-size: 20px;
-    }
     // ２つのピンクボタンーーーーーーーーーーーーーーーーーーーーーーー
     .cont6_itm_button{
-        position: relative;
         padding: 20px 0 80px 0;
     }
     .cont6_itm_button_up{
-        position: absolute;
         top: 14.8%;
-        left: 10%;
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
-        
         button{
             width: 97%;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            text-align: center;
-            margin: 0 auto;
-            background-color: #EB68A0;
-            font-size: 15px;
-            color: #fff;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            border: 5px outset #EB68A0;
-            border-radius: 30px;
         }
     }
     .cont6_itm_button_under{
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
         button{
             width: 100%;
-            padding-top: 18px;
-            padding-bottom: 18px;
-            text-align: center;
-            margin: 0 auto;
-            color: #fff;
-            background-color: #fff;
-            border-radius: 30px;
-            border: none;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            font-size: 15px;
         }
     }
     // 日本に生まれてよかったでしょーーーcont７"ーーーーーーーーーーーーーー
     .side_right_cont7{
         width: 90%;
-        margin: 0 auto;
         margin-top: 60px;
-        margin-bottom: 80px;
     }
     .side_right_cont7_img{
         width: 100%;
         img{
-            width: 100%;
             height: 400px;
-            object-position: right bottom;
         }
     }
     .side_right_cont7_box{
@@ -1121,129 +1027,43 @@ footer{
         margin-top: 40px;
         width: 100%;
     }
-    .side_right_cont7_itm_ribbon{
-        position: relative;
-        background-color: #b0824d;
-        padding: 10px 0 10px 0;
-        p{
-            color: #fff;
-            font-weight: bold;
-            padding-left: 10px;
-            letter-spacing: 0.1em;
-        }
-    }
-    .side_right_cont7_itm_ribbon::after{
-        content: "";
-        position:absolute;
-        top:0;
-        right:0;
-        width:0;
-        height:0;
-        border-style: solid;
-        border-color: transparent #fff transparent transparent;
-        border-width: 23px 15px 23px 15px;
-    }
-    .side_right_cont7_itm_text{
-        width: 95%;
-        margin: 0 auto;
-        margin-top: 10px;
-        height: 10x;
-        p{
-            font-size: 15px;
-        }
-    }
-    .side_right_cont7_itm_button{
-        width: 100%;
-        .cont7_itm_button{
-            position: relative;
-            margin-top: 10px;
-        }
-        button{
-            width: 100%;
-            padding-top: 5px;
-            padding-bottom: 5px;
-
-            background-color: #A29453;
-            font-size: 15px;
-            color: #fff;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            border: none;
-            box-shadow: 2px 2px 4px#434343;
-        }
-    }
-    .side_right_cont7_itm_button button::after{
-        content: "";
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        background: url(./img/link.png) no-repeat;
-        background-size: contain;
-        margin-left: auto;
-        position: absolute;
-        top: 36%;
-        right: 10px;
-        margin-top: -4px;
-    }
     // フッターーーーーーーーーーーー
     footer{
         width: 100%;
-        height: 400px;
-        margin: 0 auto;
-        background-color: #434343;
     }
     .footer_img{
-        padding-top: 40px;
-        padding-left: 0px;
-        width: 100%;
-        margin: 0 auto;
         text-align: left;
         img{
             padding-left: 20px;
         }
     }
     // モーダル部分ーーーーーーーーーーーーーーーーーーーー
-.modal{
-    display: none;
-    z-index: 2;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    width: 600px;
-}
-.modal_bg{
-    background: rgba(39, 39, 39, 0.9);
-    height: 100vh;
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    
-}
-.modal_content{
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    padding: 40px;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    
-    img{
+    .modal{
         width: 100%;
-        height: 70vh;
-        object-fit: contain;
+    }
+    .modal_content{
+        padding: 20px;
+        img{
+            width: 100%;
+            height: 70vh;
+            object-fit: contain;
+        }
+    }
+    .js-modal-close{
+        left: 80%;
+        top: -25%;
+        width: 10%;
     }
 }
-.js-modal-close{
-    position: absolute;
-    left: 80%;
-    top: 8%;
-    width: 15%;
-    img{
-        width: 50%;
-        height: auto;
-    }
+@media only screen and (max-width: 400px){
+    .cont3_itm_button button {
+        width: 100px;
+        }
+    .side_right_cont3_itm_button button{
+        font-size: 1.4rem;
+    }   
 }
-}
+
 @media screen and (min-width: 600px) {
     .slider,.responsive_cont3,.responsive_btn,.hamburger_nav,.hamburger{
       display: none;

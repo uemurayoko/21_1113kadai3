@@ -80,11 +80,11 @@
 .slick-prev
 {
     z-index: 1;/* ←画像の下矢印が隠れていたので追加した */
-    left: -10px;/* 矢印の横の位置変更 */
+    left: -0px;/* 矢印の横の位置変更 */
 }
 [dir='rtl'] .slick-prev
 {
-    right: -10px;/* 矢印の横の位置変更 */
+    right: -0px;/* 矢印の横の位置変更 */
     left: auto;
 }
 .slick-prev:before
@@ -100,12 +100,12 @@
 
 .slick-next
 {
-    right: 30px;/* 矢印の横の位置変更 */
+    right: 20px;/* 矢印の横の位置変更 */
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: 30px;/* 矢印の横の位置変更 */
+    left: 20px;/* 矢印の横の位置変更 */
 }
 .slick-next:before
 {
